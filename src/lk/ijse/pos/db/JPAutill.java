@@ -37,7 +37,7 @@ public class JPAutill {
     private static EntityManagerFactory buildEntityManagerFactory() {
 
 
-        File file = new File("E:\\IJSE\\hibernate\\Hibernate with Hibernate\\modern-pos-hibernate\\resources\\application.properties");
+        File file = new File("resources\\application.properties");
 
             Properties properties = new Properties();
         FileReader fileReader = null;
